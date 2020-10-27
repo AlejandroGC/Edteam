@@ -36,6 +36,30 @@ func main() {
 
 	// Verbos: %T , %v, %q
 	fmt.Printf("Tipo: %T, Valor: %v \n", suma, suma)
-	fmt.Printf("Tipo: %T, Valor: %v", c,c)
+	fmt.Printf("Tipo: %T, Valor: %v \n", c,c)
 
+
+	// Operadores aritmeticas (), %, +, -, *, /
+	var a = 4 + 2*3 
+	fmt.Println(a)
+
+	// Operadores de asigancion: =, +=, -=, *=, /=, %=
+	var b = 10
+	b += 2
+	fmt.Println(b)
+
+	//Operadores de Comparacion: >, <, >=, <=, !=, ==
+	fmt.Println(4!= 4)
+	// declaracion postincremento y post decremento ++, --
+
+
+	var z = 3
+	z--
+	fmt.Println(z)
+
+	// Operadores Logicos &&, ||
+	var age = 30
+	fmt.Println("edad:",  age >= 18 && age <= 60)
+	fmt.Println("nino o viejo:", age < 18 || age > 60)
+	// Unario: !
 }
